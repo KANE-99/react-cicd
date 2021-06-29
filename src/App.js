@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          My CI/CD docker.
+          Welcome to my new CI/CD pipeline.
         </p>
         <a
           className="App-link"
