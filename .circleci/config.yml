@@ -14,5 +14,5 @@ jobs:
         command: |
             echo "deploying to development environment"
             docker build -t my-app .
-            docker tag my-app repo.treescale.com/kane-99/my-app-dev:latest
-            docker push repo.treescale.com/kane-99/my-app-dev:latest
+            docker tag my-app repo.treescale.com/kane-99/my-app:latest
+            docker push repo.treescale.com/kane-99/my-app:latest
