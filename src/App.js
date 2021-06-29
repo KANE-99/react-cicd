@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          React App deployed using CI/CD and docker.
+          Testing React app automatic deployment using CI/CD and docker.
         </p>
         <a
           className="App-link"
