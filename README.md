@@ -1,5 +1,7 @@
-### Run below command to run watchtower
-`
+
+### Command to start watchtower
+
+```bash
 docker run \
     -d \
     --name watchtower \
@@ -9,4 +11,5 @@ docker run \
     --label-enable \
     --cleanup \
     --notifications slack --notification-slack-hook-url \ https://hooks.slack.com/services/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
-`
+
+```
